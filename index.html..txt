@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Professionelle Reinigung von Solar- und PV-Anlagen. Effizient, umweltfreundlich und zuverlässig.">
+    <title>Solar- und PV-Anlagen Reinigung</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Solar- & PV-Anlagen Reinigung</h1>
+            <p>Maximieren Sie die Effizienz Ihrer Anlage mit unserer professionellen Reinigung.</p>
+            <a href="#kontakt" class="btn">Kontaktieren Sie uns</a>
+        </div>
+    </header>
+
+    <section id="leistungen">
+        <div class="container">
+            <h2>Unsere Leistungen</h2>
+            <div class="services">
+                <div class="service">
+                    <h3>Photovoltaik Reinigung</h3>
+                    <p>Effiziente Reinigung für maximale Stromerträge.</p>
+                </div>
+                <div class="service">
+                    <h3>Umweltfreundliche Verfahren</h3>
+                    <p>Wir nutzen nur zertifizierte, umweltschonende Reinigungsmittel.</p>
+                </div>
+                <div class="service">
+                    <h3>Regelmäßige Wartung</h3>
+                    <p>Verlängern Sie die Lebensdauer Ihrer Anlage mit unseren Wartungspaketen.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="ueber-uns">
+        <div class="container">
+            <h2>Über uns</h2>
+            <p>Wir sind ein erfahrenes Team, spezialisiert auf die Reinigung von Solar- und PV-Anlagen. Mit modernsten Techniken sorgen wir dafür, dass Ihre Anlagen stets effizient arbeiten.</p>
+        </div>
+    </section>
+
+    <section id="kontakt">
+        <div class="container">
+            <h2>Kontakt</h2>
+            <p>Haben Sie Fragen oder möchten Sie einen Termin vereinbaren? Kontaktieren Sie uns!</p>
+            <form action="#" method="post">
+                <input type="text" name="name" placeholder="Ihr Name" required>
+                <input type="email" name="email" placeholder="Ihre E-Mail" required>
+                <textarea name="message" placeholder="Ihre Nachricht" rows="5" required></textarea>
+                <button type="submit" class="btn">Absenden</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Solar- & PV-Anlagen Reinigung. Alle Rechte vorbehalten.</p>
+        </div>
+    </footer>
+</body>
+</html>

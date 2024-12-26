@@ -1,0 +1,117 @@
+/* Allgemeine Einstellungen */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Header */
+header {
+    background: #f4a261;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+header .btn {
+    background: #2a9d8f;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+header .btn:hover {
+    background: #21867a;
+}
+
+/* Leistungen */
+#leistungen {
+    background: #f7f7f7;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#leistungen .services {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.service {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.service h3 {
+    color: #2a9d8f;
+}
+
+/* Kontakt */
+#kontakt {
+    background: #ffffff;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#kontakt form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#kontakt input, #kontakt textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#kontakt .btn {
+    background: #2a9d8f;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+#kontakt .btn:hover {
+    background: #21867a;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+}
